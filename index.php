@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-</head>
-<body>
+
  <?php
        $db_host = "sql10.freemysqlhosting.net:3306";
        $db_name = "sql10250352";
@@ -20,5 +15,4 @@ while($r = mysqli_fetch_assoc($result)) {
 }
 print json_encode($rows);
 ?>
-</body>
-</html>
+
